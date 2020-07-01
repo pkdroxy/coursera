@@ -20,7 +20,7 @@ h1{
   background-color: gray;
   padding: 0px 0px 5px 5px;
   border: 1px solid black;
-  width: auto;
+  width: 100%;
   margin: 20px;  
 }
 p{
@@ -60,7 +60,7 @@ section{
 }
   @media (min-width: 768px) and (max-width: 991px){
   .box{
-    width: auto;
+    width: 30%;
   }
 }
 @media screen and (max-width: 767px){
