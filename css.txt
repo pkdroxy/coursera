@@ -1,0 +1,72 @@
+.serif{
+  font-family: "Comic Sans MS",cursive,sans-serif;
+}
+
+h1{
+  margin-bottom: 100px;
+  text-align: center;
+  color: solid black;
+}
+.container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+#box{
+  box-sizing: border-box;
+  background-color: gray;
+  padding: 0px 0px 5px 5px;
+  border: 3px solid black;
+  width: 30%;
+  margin: 20px;
+  
+  
+}
+p{
+  border: 3px solid black;
+  text-align: center;
+  float: right;
+}
+#p1{
+  position: relative;
+  top: -19px;
+  left: 3px;
+  width: 30%;
+  background-color: pink;
+}
+#p2{
+  position: relative;
+  top: -19px;
+  left: 3px;
+  width: 30%;
+  background-color: red;
+}
+#p3{  
+  position: relative;
+  top: -19px;
+  left: 3px;
+  width: 30%;
+  background-color: yellow;
+}
+section{
+  clear: both;
+}
+/******Large Device******/
+@media screen and (min-width: 992px){
+  #box{
+    width: 30%;
+  }
+}
+  @media (min-width: 768px) and (max-width: 991px){
+  #box{
+    width: 60%;
+  }
+}
+@media screen and (max-width: 767px){
+  #box{
+    width: 100%;
+  }
+}
